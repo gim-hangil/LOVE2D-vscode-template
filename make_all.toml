@@ -1,0 +1,10 @@
+name = "Untitled"
+default_targets = ["win32", "win64", "macos", "appimage"]
+build_directory = "bin"
+love_files = [
+"+./libraries/*",
+"+./assets/*",
+"+./scripts/*",
+"+./main.lua",
+"+./conf.lua",
+]
